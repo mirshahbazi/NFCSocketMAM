@@ -28,4 +28,3 @@ An example is provided in Example folder.
 ### Others
 
 * Currently all operations are conducted in main thread. The multi-thread operations will be supported later.
-* setTimeout in NfcClientSocket is not available currently.
