@@ -21,24 +21,6 @@ An example is provided in Example folder.
 	NfcReciveSocket.getInstance()
 </code>
 
-* declare Recive in your ('AndroidManifest.xml')
-
-<code>
-		//-------------------------------
-	         <service
-			android:name="com.mam.nfcsocket.HCEService"
-			android:exported="true"
-			android:permission="android.permission.BIND_NFC_SERVICE">
-			<intent-filter>
-				<action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
-			</intent-filter>
-
-			<meta-data
-				android:name="android.nfc.cardemulation.host_apdu_service"
-				android:resource="@xml/apduservice" />
-		</service>
-		//---------------------------------------
-</code>
 
 * ('xml/apduservice') decalres the AID group. More information about AID group selection can be found in [HostApduService](https://developer.android.com/reference/android/nfc/cardemulation/HostApduService.html). ('xml/apduservice') in ('NfcSocketMAM') provides an example AID group. Note that if using custom AID group, you should override the corresponding methods in ('NfcSocket.Utils')\
 
