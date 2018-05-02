@@ -28,3 +28,25 @@ An example is provided in Example folder.
 ### Others
 
 * Currently all operations are conducted in main thread. The multi-thread operations will be supported later.
+
+### How to
+* Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+* Step 2. Add the dependency
+
+dependencies {
+	        implementation 'com.github.mirshahbazi:NFCSocketMAM:-SNAPSHOT'
+	}
+	
+[![](https://jitpack.io/v/mirshahbazi/NFCSocketMAM.svg)](https://jitpack.io/#mirshahbazi/NFCSocketMAM)
+https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fjitpack.io%2F&ref_src=twsrc%5Etfw&text=Version%20-SNAPSHOT%20of%20NFCSocketMAM%20is%20now%20available%20on%20&tw_p=tweetbutton&url=http%3A%2F%2Fjitpack.io%2F%23mirshahbazi%2FNFCSocketMAM%2F-SNAPSHOT
+	
