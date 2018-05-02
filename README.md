@@ -48,6 +48,4 @@ dependencies {
 	}
 	
 [![](https://jitpack.io/v/mirshahbazi/NFCSocketMAM.svg)](https://jitpack.io/#mirshahbazi/NFCSocketMAM)
-
-[![](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fjitpack.io%2F&ref_src=twsrc%5Etfw&text=Version%20-SNAPSHOT%20of%20NFCSocketMAM%20is%20now%20available%20on%20&tw_p=tweetbutton&url=http%3A%2F%2Fjitpack.io%2F%23mirshahbazi%2FNFCSocketMAM%2F-SNAPSHOT)
 	
