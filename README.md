@@ -3,6 +3,7 @@ NFCSocket [![Build Status](https://travis-ci.org/Chrisplus/NFCSocket.svg?branch=
 
 
 ## Using with gradle
+[![](https://jitpack.io/v/mirshahbazi/NFCSocketMAM.svg)](https://jitpack.io/#mirshahbazi/NFCSocketMAM)
 - Add the JitPack repository to your root build.gradle:
 ```gradle
 repositories {
@@ -36,9 +37,9 @@ repositories {
 	    <version>-SNAPSHOT</version>
 	</dependency>
 ```	
-	
-	
-[![](https://jitpack.io/v/mirshahbazi/NFCSocketMAM.svg)](https://jitpack.io/#mirshahbazi/NFCSocketMAM)
+
+
+
 NfcSocket is a lib for Android developers to implement communication via NFC in an easy way. Based on Host-card-emulator, NfcSocket implements P2P multi-rounds communication. But unlike Android Beam, NfcSocket allows devices communicating automatically without user intervention.
 
 ## Main Features
