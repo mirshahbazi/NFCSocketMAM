@@ -1,6 +1,44 @@
 NFCSocket [![Build Status](https://travis-ci.org/Chrisplus/NFCSocket.svg?branch=master)](https://travis-ci.org/Chrisplus/NFCSocket)
 =========
 
+
+## Using with gradle
+- Add the JitPack repository to your root build.gradle:
+```gradle
+repositories {
+    maven { url "https://jitpack.io" }
+}
+```
+
+- Add the dependency to your sub build.gradle:
+```gradle
+		dependencies {
+	           implementation 'com.github.mirshahbazi:NFCSocketMAM:-SNAPSHOT'
+	}
+
+
+```
+## Using with maven
+- Add the JitPack repository to your build file
+```maven:
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+ ``` 
+-  Add the dependency
+ ```maven: 
+  	<dependency>
+    <groupId>com.github.mirshahbazi</groupId>
+	    <artifactId>NFCSocketMAM</artifactId>
+	    <version>-SNAPSHOT</version>
+	</dependency>
+```	
+	
+	
+[![](https://jitpack.io/v/mirshahbazi/NFCSocketMAM.svg)](https://jitpack.io/#mirshahbazi/NFCSocketMAM)
 NfcSocket is a lib for Android developers to implement communication via NFC in an easy way. Based on Host-card-emulator, NfcSocket implements P2P multi-rounds communication. But unlike Android Beam, NfcSocket allows devices communicating automatically without user intervention.
 
 ## Main Features
@@ -29,23 +67,4 @@ An example is provided in Example folder.
 
 * Currently all operations are conducted in main thread. The multi-thread operations will be supported later.
 
-### How to
-* Step 1. Add the JitPack repository to your build file
-
-Add it in your root build.gradle at the end of repositories:
-
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-	
-* Step 2. Add the dependency
-
-dependencies {
-	        implementation 'com.github.mirshahbazi:NFCSocketMAM:-SNAPSHOT'
-	}
-	
-[![](https://jitpack.io/v/mirshahbazi/NFCSocketMAM.svg)](https://jitpack.io/#mirshahbazi/NFCSocketMAM)
 	
