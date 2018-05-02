@@ -1,0 +1,7 @@
+<resources>
+
+	<string name="app_name">NFCSocketMAM</string>
+	<string name="aiddescription">NFCSocket AID</string>
+	<string name="servicedesc">NFCSocket RECEIVE</string>
+
+</resources>
